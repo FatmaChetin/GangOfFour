@@ -11,6 +11,7 @@ namespace Project.ENTITIES.Models
         public string DepartmentName { get; set; }
         public string OrganizationCompanyID { get; set; }
 
+        //Relational Properties
 
         public virtual List<Employee> Employeese { get; set; }
     }

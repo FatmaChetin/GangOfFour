@@ -10,6 +10,10 @@ namespace Project.ENTITIES.Models
     {
         public int? ServiceID { get; set; }
         public int? PossibleProblemID { get; set; }
+
+
+        //Relational Properties
+
         public virtual Service Service { get; set; }
         public virtual PossibleProblems Problems { get; set; }
     }

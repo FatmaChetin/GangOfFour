@@ -11,6 +11,9 @@ namespace Project.ENTITIES.Models
         public Decimal ServicesFee { get; set; }
         public string ShippedAdress { get; set; }
         public int? CustomerID { get; set; }
+
+        //Relational Properties
+
         public virtual Customer Customer { get; set; }
         public virtual List<OrderExtraService> OrderExtraServices { get; set; }
 

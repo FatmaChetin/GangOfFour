@@ -14,6 +14,7 @@ namespace Project.ENTITIES.Models
         public string StorageArea { get; set; }
         public string InvititationCard { get; set; }
 
+        //Relational Properties
 
         public virtual List<OrderExtraService> OrderExtraServices { get; set; }
     }

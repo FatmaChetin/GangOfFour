@@ -11,7 +11,10 @@ namespace Project.ENTITIES.Models
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public int? EmployeeDepartmentID { get; set; }
-        public virtual EmployeelDepertmant EmployeelDepertmant { get; set; }
+
+        //Relational Properties
+
+       // public virtual EmployeelDepertmant EmployeelDepertmant { get; set; }
         public virtual List<Customer> Customers { get; set; }
         public virtual OrganizationCompany OrganizationCompany { get; set; }
     }

@@ -18,6 +18,8 @@ namespace Project.ENTITIES.Models
         public int? OrderID { get; set; }
 
 
+        //Relational Properties
+
         public virtual List<Order> Orders { get; set; }
         public virtual List<CustomerExtraServices> CustomerExtraServices { get; set; }
     }

@@ -11,6 +11,10 @@ namespace Project.ENTITIES.Models
         public string ProblemsRelatedToTheServicesProvided { get; set; }
         public string ProblemsRelatedToTheFairArea { get; set; }
         public string Description { get; set; }
+
+
+        //Relational Properties
+
         public virtual List<ServiceProblem> Problems { get; set; }
     }
 }

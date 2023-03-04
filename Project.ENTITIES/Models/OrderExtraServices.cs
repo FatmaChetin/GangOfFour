@@ -10,6 +10,10 @@ namespace Project.ENTITIES.Models
     {
         public int OrderID { get; set; }
         public int ExtraServiceID { get; set; }
+
+
+        //Relational Properties
+
         public virtual Order Order { get; set; }
         public virtual ExtraServices ExtraServices { get; set; }
 

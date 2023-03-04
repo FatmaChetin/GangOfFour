@@ -11,6 +11,9 @@ namespace Project.ENTITIES.Models
         public string Area { get; set; }
         public string ModulerStand { get; set; }
         public string CustomStand { get; set; }
+
+        //Relational Properties
+
         public virtual List<ServiceProblem> Problems { get; set; }
     }
 }

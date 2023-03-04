@@ -11,6 +11,10 @@ namespace Project.ENTITIES.Models
         public string ContactNumber { get; set; }
         public int? EmployeeID { get; set; }
 
+
+
+        //Relational Properties
+
         public virtual List<Employee> Employees { get; set; }
 
 
